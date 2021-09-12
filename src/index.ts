@@ -4,6 +4,7 @@ import { parse } from 'querystring'
 import { pathToRegexp, match } from 'path-to-regexp'
 import { Plugin } from 'vite'
 import { loadFile, loadMockFiles, matchFiles, parseBody } from './utils'
+export * from './type'
 
 export interface viteMockPluginOptions extends WatchOptions {
   dir: string[] | string
