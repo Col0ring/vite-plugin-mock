@@ -1,5 +1,6 @@
 import type { WatchOptions } from 'chokidar';
 import { Plugin } from 'vite';
+export * from './type';
 export interface viteMockPluginOptions extends WatchOptions {
     dir: string[] | string;
     /**
